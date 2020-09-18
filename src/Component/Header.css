@@ -1,0 +1,35 @@
+.header__nav {
+  background-color: white !important;
+}
+.header__brand {
+  margin-left: 2vw;
+}
+.header__input {
+  display: flex;
+  align-items: center;
+  width: 40vw;
+  border: 1px solid lightgray;
+}
+.header__search {
+  width: 20% !important;
+  background-color: lightgray;
+  color: gray;
+  border-left: 1px solid lightgray;
+}
+.header__input > input {
+  flex: 1;
+  border: none;
+}
+.header__navright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__icon {
+  margin-right: 2vw;
+}
+.header__image {
+  object-fit: contain;
+  height: 20px;
+  margin-left: 1vw;
+}
